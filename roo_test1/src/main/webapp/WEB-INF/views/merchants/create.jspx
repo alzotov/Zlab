@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:c="http://java.sun.com/jsp/jstl/core" xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:spring="http://www.springframework.org/tags" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:create id="fc_com_azotov_roo_model_Merchant" modelAttribute="merchant" path="/merchants" render="${empty dependencies}" z="m1yeSdDXV51lcPrMpenGRwrpnVw=">
+        <field:input field="Name" id="c_com_azotov_roo_model_Merchant_Name" required="true" z="HmxrzSKqm236smADpiQs8HxrehA="/>
+        <field:input field="CompanyName" id="c_com_azotov_roo_model_Merchant_CompanyName" required="true" z="BU4reKZM7kqvWuwL66e2Z7+x9IQ="/>
+        <field:input field="CompanyRegisterNumber" id="c_com_azotov_roo_model_Merchant_CompanyRegisterNumber" validationMessageCode="field_invalid_integer" z="U6CmNQdI3ZGhBfndxBBPU8yXztY="/>
+        <field:input field="BusinessNature" id="c_com_azotov_roo_model_Merchant_BusinessNature" required="true" z="VVyBQfCOQJV0529ZiUDSMeCJNTA="/>
+        <field:input field="BusinessRegisterDocument" id="c_com_azotov_roo_model_Merchant_BusinessRegisterDocument" required="true" z="6gcmWGOnU7dTilgvvBWQtKPpE2k="/>
+        <field:input field="ContactPerson" id="c_com_azotov_roo_model_Merchant_ContactPerson" required="true" z="xnA2yjfLcfcA6N2MIZsnNQUSpo8="/>
+        <field:input field="Address" id="c_com_azotov_roo_model_Merchant_Address" required="true" z="psCE6GFBBlTtAFf4vYR6Urs9Loc="/>
+        <field:input field="Contact" id="c_com_azotov_roo_model_Merchant_Contact" required="true" z="WGwDwuEoVGfrEp78pLKEJEhw7dU="/>
+        <field:input field="Email" id="c_com_azotov_roo_model_Merchant_Email" required="true" validationMessageCode="field_invalid_email" z="yTGAL8NxGW1wqD9XUeMUUQ2ZYRI="/>
+        <field:input field="BillingCycle" id="c_com_azotov_roo_model_Merchant_BillingCycle" required="true" z="jIZJnK1mDBPKgu5/zrbstSeoiU4="/>
+        <field:input field="AccountNumber" id="c_com_azotov_roo_model_Merchant_AccountNumber" validationMessageCode="field_invalid_integer" z="u/3IJyIwPZQCVjQq7vuhEMWx6cg="/>
+        <field:datetime dateTimePattern="${merchant_datejoin_date_format}" field="DateJoin" id="c_com_azotov_roo_model_Merchant_DateJoin" z="aDpzz+iJRRQcvGOj/hXq6yD8fvE="/>
+        <field:datetime dateTimePattern="${merchant_nextbillingdate_date_format}" field="NextBillingDate" id="c_com_azotov_roo_model_Merchant_NextBillingDate" z="Nf4bj7RaFGXeWpjlmfltzKlR6zI="/>
+        <field:input field="Remarks" id="c_com_azotov_roo_model_Merchant_Remarks" z="3inFFsr6xAaMJkmmgE6TfZ+Tzks="/>
+        <field:input field="Rate" id="c_com_azotov_roo_model_Merchant_Rate" validationMessageCode="field_invalid_number" z="D0g9w6TCmu4qyeoOjQhzzOCbAsM="/>
+        <field:select field="Terminals" id="c_com_azotov_roo_model_Merchant_Terminals" itemValue="id" items="${terminals}" path="/terminals" z="bvR0YXU5UX5t1lG4PVkOuxB2L7Y="/>
+        <field:select field="Branches" id="c_com_azotov_roo_model_Merchant_Branches" itemValue="id" items="${branches}" path="/branches" z="rcsqDlHOIB/WW4OS42lzaqYaMR0="/>
+        <field:select field="IssuerAgent" id="c_com_azotov_roo_model_Merchant_IssuerAgent" itemValue="id" items="${issueragents}" path="/issueragents" z="KiAZ70I3j5d8YtGGf8BZZSN1If8="/>
+    </form:create>
+    <form:dependency dependencies="${dependencies}" id="d_com_azotov_roo_model_Merchant" render="${not empty dependencies}" z="2PECmq2WCMGUWDAf9mf7V0Pb/u8="/>
+</div>

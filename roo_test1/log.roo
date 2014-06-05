@@ -1,0 +1,82 @@
+// Spring Roo 1.2.5.RELEASE [rev 8341dc2] log opened at 2014-05-21 17:25:49
+project --topLevelPackage com.azotov.roo --projectName roo_test1 --java 6 --packaging WAR
+// Spring Roo 1.2.5.RELEASE [rev 8341dc2] log closed at 2014-05-21 17:26:00
+// Spring Roo 1.2.5.RELEASE [rev 8341dc2] log opened at 2014-05-21 17:26:07
+jpa setup --database DERBY_EMBEDDED --provider ECLIPSELINK
+logging setup --level WARN 
+entity jpa --class ~.model.Configuration --testAutomatically 
+field string --fieldName name --notNull --sizeMax 40
+field number --fieldName Rate --type java.lang.Double
+entity jpa --class ~.model.Merchant --testAutomatically
+field string --fieldName Name --notNull --sizeMin 2
+// [failed] field string --fieldName Name --notNull
+field string --fieldName CompanyName --notNull 
+field number --fieldName CompanyRegisterNumber --type java.lang.Long
+field string --fieldName BusinessNature  --notNull
+field string --fieldName BusinessRegisterDocument --notNull 
+field string --fieldName ContactPerson --notNull
+field string --fieldName Address  --notNull
+field string --fieldName Contact  --notNull
+field string --fieldName Email  --notNull
+field string --fieldName BillingCycle --notNull 
+field number --fieldName AccountNumber --type java.lang.Long
+field date --fieldName DateJoin --type java.util.Dat
+// [failed] field date --fieldName DateJoin --type java.util.Date
+// [failed] field date --fieldName DateJoin --type java.util.Date
+field date --fieldName DateJoin --type java.util.Date
+field date --fieldName NextBillingDate --type java.util.Date
+// [failed] field reference --fieldName Terminals --type ~.model.Terminal
+field string --fieldName Remarks
+field number --fieldName Rate --type java.lang.Double
+entity jpa --class ~.model.IssuerAgent --testAutomatically
+field string --fieldName Name --notNull --sizeMin 2
+entity jpa --class ~.model.Issuer --testAutomatically
+field number --fieldName Rate --type java.lang.Double
+entity jpa --class ~.model.Branch --testAutomatically
+field string --fieldName Address  
+field string --fieldName Name --notNull 
+focus --class ~.model.Merchant
+// [failed] field reference --fieldName Terminals --type ~.model.Terminal
+entity jpa --class ~.model.Terminal --testAutomatically
+field number --fieldName TerminalNo --type java.lang.Long
+focus --class ~.model.Merchant
+field reference --fieldName Terminals --type ~.model.Terminal
+field reference --fieldName Branches --type ~.model.Branch
+field reference --fieldName IssuerAgent --type ~.model.IssuerAgent
+focus --class ~.model.IssuerAgent
+field reference --fieldName Issuer --type ~.model.Issuer
+web mvc setup
+web mvc all --package ~.web
+json all --deepSerialize
+web mvc json all
+perform clean 
+perform assembly
+perform assembly
+perform tests 
+perform tests
+json all
+web mvc json all 
+perform assembly 
+hint
+// Spring Roo 1.2.5.RELEASE [rev 8341dc2] log closed at 2014-05-21 18:22:13
+// Spring Roo 1.2.5.RELEASE [rev 8341dc2] log opened at 2014-05-21 18:23:27
+// [failed] entity jpa --class ~.model.Member --testAutomatically
+entity jpa --class ~.model.EndUser --testAutomatically
+field string --fieldName Name --notNull
+field number --fieldName UserNo --type java.lang.Long
+// Spring Roo 1.2.5.RELEASE [rev 8341dc2] log closed at 2014-05-22 11:23:52
+// Spring Roo 1.2.5.RELEASE [rev 8341dc2] log opened at 2014-06-02 12:05:05
+// Spring Roo 1.2.5.RELEASE [rev 8341dc2] log opened at 2014-06-03 11:37:19
+focus --class ~.model.Branch
+// Spring Roo 1.2.5.RELEASE [rev 8341dc2] log opened at 2014-06-04 11:05:05
+focus --class ~.model.IssuerAgent
+field set --fieldName Issuers --type ~.model.Issuer 
+focus --class ~.model.Terminal
+field reference --fieldName Merchant --type ~.model.Merchant --cardinality MANY_TO_ONE 
+focus --class ~.model.Configuration 
+// [failed] field number --fieldName rate --type java.lang.Double
+// Spring Roo 1.2.5.RELEASE [rev 8341dc2] log closed at 2014-06-04 11:26:15
+// Spring Roo 1.2.5.RELEASE [rev 8341dc2] log opened at 2014-06-04 11:37:52
+focus --class ~.model.Branch
+field reference --fieldName Merchant --type ~.model.Merchant
+addon list

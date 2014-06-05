@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_azotov_roo_model_Configuration" object="${configuration}" path="/configurations" z="uh3e4xDGY0nGVwiUaDKTHGqIJlY=">
+        <field:display field="name" id="s_com_azotov_roo_model_Configuration_name" object="${configuration}" z="/4kPfiSLmBtqPTR8/Y49/yQKzNo="/>
+        <field:display field="rate" id="s_com_azotov_roo_model_Configuration_Rate" object="${configuration}" z="k07tCM8+yz1VCas9s74R3qNWfmM="/>
+    </page:show>
+</div>

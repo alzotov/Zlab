@@ -1,0 +1,34 @@
+entity jpa --class ~.model.IssuerAgent --testAutomatically
+field string --fieldName Name --notNull
+field reference --fieldName Issuer --type ~.model.Issuer
+
+entity jpa --class ~.model.Branch --testAutomatically
+field string --fieldName Address  
+field number --fieldName BranchNo --type java.lang.Long 
+
+entity jpa --class ~.model.Terminal --testAutomatically
+field number --fieldName TerminalNo --type java.lang.Long 
+
+entity jpa --class ~.model.Merchant --testAutomatically
+field string --fieldName Name --notNull 
+field string --fieldName CompanyName --notNull 
+field number --fieldName CompanyRegisterNumber --type java.lang.Long
+field string --fieldName BusinessNature  --notNull 
+field string --fieldName BusinessRegisterDocument --notNull 
+field string --fieldName ContactPerson --notNull 
+field string --fieldName Address  --notNull 
+field string --fieldName Contact  --notNull 
+field string --fieldName Email  --notNull 
+field string --fieldName BillingCycle --notNull 
+field number --fieldName AccountNumber --type java.lang.Long
+field date --fieldName DateJoin --type java.util.Date
+field date --fieldName NextBillingDate --type java.util.Date
+field reference --fieldName Terminals --type ~.model.Terminal
+field reference --fieldName IssuerAgent --type ~.model.IssuerAgent
+field reference --fieldName Branches --type ~.model.Branch
+field string --fieldName Remarks
+field number --fieldName Rate --type java.lang.Double
+
+entity jpa --class ~.model.LoyaltyTransaction --testAutomatically
+	
+	

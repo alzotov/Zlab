@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:c="http://java.sun.com/jsp/jstl/core" xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:spring="http://www.springframework.org/tags" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:create id="fc_com_azotov_roo_model_Issuer" modelAttribute="issuer" path="/issuers" render="${empty dependencies}" z="gavtduIHvjOfAdZ7JcvZbdiU3QY=">
+        <field:input field="Rate" id="c_com_azotov_roo_model_Issuer_Rate" validationMessageCode="field_invalid_number" z="H7NA+cq+Lc+za9dEGo71AgpMb8I="/>
+        <field:input field="Name" id="c_com_azotov_roo_model_Issuer_Name" required="true" z="02W0xd3YjLUo+xAmi3nBiSeY17Q="/>
+    </form:create>
+    <form:dependency dependencies="${dependencies}" id="d_com_azotov_roo_model_Issuer" render="${not empty dependencies}" z="nEq/lVHvzSCMzX7U8WVU+/QpL/4="/>
+</div>

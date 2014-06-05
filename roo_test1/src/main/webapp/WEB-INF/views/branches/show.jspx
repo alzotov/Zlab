@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_azotov_roo_model_Branch" object="${branch}" path="/branches" z="WtF6YOar0zSaSHkl6+LRwbb4U7A=">
+        <field:display field="address" id="s_com_azotov_roo_model_Branch_Address" object="${branch}" z="muK59aCuwRK2ZGmkh7v5LRatGjA="/>
+        <field:display field="name" id="s_com_azotov_roo_model_Branch_Name" object="${branch}" z="CD4YOpStcWR5eqvmPsd3auA3chk="/>
+        <field:display field="merchant" id="s_com_azotov_roo_model_Branch_Merchant" object="${branch}" z="tJAVeK+8GKAguChubUJ1vPvzkqQ="/>
+    </page:show>
+</div>

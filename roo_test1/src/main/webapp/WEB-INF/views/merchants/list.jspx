@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_azotov_roo_model_Merchant" items="${merchants}" z="ncGuaMA2XMfXddXsWSV+Snk8TVY=">
+        <table:table data="${merchants}" id="l_com_azotov_roo_model_Merchant" path="/merchants" z="8PLuED/eJSyhHLnnaifGAJjuAH4=">
+            <table:column id="c_com_azotov_roo_model_Merchant_Name" property="name" z="czUThrCoYyXVsewiaq/2OCVbjf0="/>
+            <table:column id="c_com_azotov_roo_model_Merchant_CompanyName" property="companyName" z="oOaiUMwzq/W4q9uIk3c0hxRT2vc="/>
+            <table:column id="c_com_azotov_roo_model_Merchant_CompanyRegisterNumber" property="companyRegisterNumber" z="TtdlQ7f5AoEx4hkyyrHTTeYt21I="/>
+            <table:column id="c_com_azotov_roo_model_Merchant_BusinessNature" property="businessNature" z="KGZQP7OpljzTHAq9vwwbgH49iTU="/>
+            <table:column id="c_com_azotov_roo_model_Merchant_BusinessRegisterDocument" property="businessRegisterDocument" z="wq4NSDVnquJoKsnFp8gEMMgTXLI="/>
+            <table:column id="c_com_azotov_roo_model_Merchant_ContactPerson" property="contactPerson" z="Ga2Km63h6bwRMi0U4FyzmbDo5aA="/>
+        </table:table>
+    </page:list>
+</div>

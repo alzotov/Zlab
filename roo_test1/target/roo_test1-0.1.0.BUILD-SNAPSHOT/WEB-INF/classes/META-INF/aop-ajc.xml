@@ -1,0 +1,59 @@
+<aspectj>
+<aspects>
+<aspect name="com.azotov.roo.model.Issuer_Roo_Configurable"/>
+<aspect name="com.azotov.roo.model.Branch_Roo_Configurable"/>
+<aspect name="com.azotov.roo.model.Configuration_Roo_Jpa_Entity"/>
+<aspect name="com.azotov.roo.model.EndUser_Roo_Configurable"/>
+<aspect name="com.azotov.roo.model.Terminal_Roo_ToString"/>
+<aspect name="com.azotov.roo.model.IssuerAgent_Roo_ToString"/>
+<aspect name="com.azotov.roo.model.EndUser_Roo_JavaBean"/>
+<aspect name="com.azotov.roo.model.Merchant_Roo_ToString"/>
+<aspect name="com.azotov.roo.model.IssuerAgent_Roo_Jpa_Entity"/>
+<aspect name="com.azotov.roo.model.Branch_Roo_Jpa_Entity"/>
+<aspect name="com.azotov.roo.web.ConfigurationController_Roo_Controller_Json"/>
+<aspect name="com.azotov.roo.model.Merchant_Roo_Jpa_Entity"/>
+<aspect name="com.azotov.roo.model.Configuration_Roo_Jpa_ActiveRecord"/>
+<aspect name="com.azotov.roo.web.MerchantController_Roo_Controller_Json"/>
+<aspect name="com.azotov.roo.web.IssuerController_Roo_Controller"/>
+<aspect name="com.azotov.roo.model.Terminal_Roo_Jpa_Entity"/>
+<aspect name="com.azotov.roo.model.IssuerAgent_Roo_Jpa_ActiveRecord"/>
+<aspect name="com.azotov.roo.web.BranchController_Roo_Controller_Json"/>
+<aspect name="com.azotov.roo.model.EndUser_Roo_ToString"/>
+<aspect name="com.azotov.roo.model.Issuer_Roo_Jpa_Entity"/>
+<aspect name="com.azotov.roo.model.Terminal_Roo_Jpa_ActiveRecord"/>
+<aspect name="com.azotov.roo.model.Issuer_Roo_JavaBean"/>
+<aspect name="com.azotov.roo.model.Merchant_Roo_Jpa_ActiveRecord"/>
+<aspect name="com.azotov.roo.model.Branch_Roo_JavaBean"/>
+<aspect name="com.azotov.roo.model.Configuration_Roo_JavaBean"/>
+<aspect name="com.azotov.roo.model.Merchant_Roo_Json"/>
+<aspect name="com.azotov.roo.model.Merchant_Roo_Configurable"/>
+<aspect name="com.azotov.roo.model.Issuer_Roo_Json"/>
+<aspect name="com.azotov.roo.model.Merchant_Roo_JavaBean"/>
+<aspect name="com.azotov.roo.web.ConfigurationController_Roo_Controller"/>
+<aspect name="com.azotov.roo.model.Configuration_Roo_Json"/>
+<aspect name="com.azotov.roo.model.Terminal_Roo_Json"/>
+<aspect name="com.azotov.roo.model.Branch_Roo_Json"/>
+<aspect name="com.azotov.roo.model.Branch_Roo_ToString"/>
+<aspect name="com.azotov.roo.web.BranchController_Roo_Controller"/>
+<aspect name="com.azotov.roo.model.Configuration_Roo_Configurable"/>
+<aspect name="com.azotov.roo.model.IssuerAgent_Roo_Json"/>
+<aspect name="com.azotov.roo.model.IssuerAgent_Roo_Configurable"/>
+<aspect name="com.azotov.roo.web.ApplicationConversionServiceFactoryBean_Roo_ConversionService"/>
+<aspect name="com.azotov.roo.model.Terminal_Roo_Configurable"/>
+<aspect name="com.azotov.roo.web.IssuerAgentController_Roo_Controller"/>
+<aspect name="com.azotov.roo.model.Branch_Roo_Jpa_ActiveRecord"/>
+<aspect name="com.azotov.roo.model.Issuer_Roo_Jpa_ActiveRecord"/>
+<aspect name="com.azotov.roo.web.IssuerAgentController_Roo_Controller_Json"/>
+<aspect name="com.azotov.roo.model.EndUser_Roo_Jpa_ActiveRecord"/>
+<aspect name="com.azotov.roo.model.EndUser_Roo_Jpa_Entity"/>
+<aspect name="com.azotov.roo.web.IssuerController_Roo_Controller_Json"/>
+<aspect name="com.azotov.roo.model.IssuerAgent_Roo_JavaBean"/>
+<aspect name="com.azotov.roo.model.Issuer_Roo_ToString"/>
+<aspect name="com.azotov.roo.web.TerminalController_Roo_Controller_Json"/>
+<aspect name="com.azotov.roo.web.MerchantController_Roo_Controller"/>
+<aspect name="com.azotov.roo.model.Terminal_Roo_JavaBean"/>
+<aspect name="com.azotov.roo.model.Configuration_Roo_ToString"/>
+<aspect name="com.azotov.roo.web.TerminalController_Roo_Controller"/>
+</aspects>
+</aspectj>
+

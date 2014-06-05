@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_azotov_roo_model_IssuerAgent" items="${issueragents}" z="Aw6IXCS+VIoy7X5EHewOagrMw4o=">
+        <table:table data="${issueragents}" id="l_com_azotov_roo_model_IssuerAgent" path="/issueragents" z="DbsznBVKuxW8KaCX8mYd1cH9hqY=">
+            <table:column id="c_com_azotov_roo_model_IssuerAgent_Name" property="name" z="87A/NMqI9iFdRZSdd3T1EXrGMrM="/>
+            <table:column id="c_com_azotov_roo_model_IssuerAgent_Issuers" property="issuers" z="Z7LoHKZJbFO2PVe4MPEv8POKG8s="/>
+        </table:table>
+    </page:list>
+</div>

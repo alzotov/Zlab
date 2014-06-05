@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_azotov_roo_model_Merchant" object="${merchant}" path="/merchants" z="1Ps9ROFZpTVehAgJFRH/ce8xFqM=">
+        <field:display field="name" id="s_com_azotov_roo_model_Merchant_Name" object="${merchant}" z="4zu5MPVOYKyehl18NTvsYfr9l+s="/>
+        <field:display field="companyName" id="s_com_azotov_roo_model_Merchant_CompanyName" object="${merchant}" z="YdPdC2cjWvHYKdTkmlYyll8hLP8="/>
+        <field:display field="companyRegisterNumber" id="s_com_azotov_roo_model_Merchant_CompanyRegisterNumber" object="${merchant}" z="UO+3nrYXTCT6k5t9VdYGhQSqQ78="/>
+        <field:display field="businessNature" id="s_com_azotov_roo_model_Merchant_BusinessNature" object="${merchant}" z="Bv33iN5/L4Dl5a2OF5xt6Q2QwgI="/>
+        <field:display field="businessRegisterDocument" id="s_com_azotov_roo_model_Merchant_BusinessRegisterDocument" object="${merchant}" z="zFX0qR98kY0Nb+yEmgm1Tp7S0PQ="/>
+        <field:display field="contactPerson" id="s_com_azotov_roo_model_Merchant_ContactPerson" object="${merchant}" z="qyUwJSQ2HVBbEqi4ZTwBY30Qdd4="/>
+        <field:display field="address" id="s_com_azotov_roo_model_Merchant_Address" object="${merchant}" z="1eBunSqEQsrLGHxu0YqEOFdqXV4="/>
+        <field:display field="contact" id="s_com_azotov_roo_model_Merchant_Contact" object="${merchant}" z="Ol6Aalh5KkmOhc1dMvB5B7wI0CE="/>
+        <field:display field="email" id="s_com_azotov_roo_model_Merchant_Email" object="${merchant}" z="OgL1nPIuLa4KmSdXOb5ISKl/HeY="/>
+        <field:display field="billingCycle" id="s_com_azotov_roo_model_Merchant_BillingCycle" object="${merchant}" z="s9UkWz0BbrQvDB2/ei8kRWkWklM="/>
+        <field:display field="accountNumber" id="s_com_azotov_roo_model_Merchant_AccountNumber" object="${merchant}" z="LQ5tSDMHtTW/nxPVl7wmGN4KeNE="/>
+        <field:display date="true" dateTimePattern="${merchant_datejoin_date_format}" field="dateJoin" id="s_com_azotov_roo_model_Merchant_DateJoin" object="${merchant}" z="HRdtOHqOa4jp9MN5ydOJYXJ7K7M="/>
+        <field:display date="true" dateTimePattern="${merchant_nextbillingdate_date_format}" field="nextBillingDate" id="s_com_azotov_roo_model_Merchant_NextBillingDate" object="${merchant}" z="5yZ0jOdRLOYoNN+x/qbYiniav7A="/>
+        <field:display field="remarks" id="s_com_azotov_roo_model_Merchant_Remarks" object="${merchant}" z="J4lf0g5XayryZHhthsusuagn9k8="/>
+        <field:display field="rate" id="s_com_azotov_roo_model_Merchant_Rate" object="${merchant}" z="rrRS/e3IbJWYpVZYGGNrutbybeE="/>
+        <field:display field="terminals" id="s_com_azotov_roo_model_Merchant_Terminals" object="${merchant}" z="jFwhc5NPqVg/fMwO86VRXiohkk8="/>
+        <field:display field="branches" id="s_com_azotov_roo_model_Merchant_Branches" object="${merchant}" z="yYrPMJZ5xgr/Txy/RalakzFCV2Y="/>
+        <field:display field="issuerAgent" id="s_com_azotov_roo_model_Merchant_IssuerAgent" object="${merchant}" z="zfM/widv0ttOU+YABBlm+l92/2I="/>
+    </page:show>
+</div>

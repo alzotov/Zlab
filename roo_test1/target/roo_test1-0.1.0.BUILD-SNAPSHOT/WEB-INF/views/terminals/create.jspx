@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:c="http://java.sun.com/jsp/jstl/core" xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:spring="http://www.springframework.org/tags" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:create id="fc_com_azotov_roo_model_Terminal" modelAttribute="terminal" path="/terminals" render="${empty dependencies}" z="8dBfs0OYUe4HOmK77eIG/c5md/M=">
+        <field:input field="TerminalNo" id="c_com_azotov_roo_model_Terminal_TerminalNo" validationMessageCode="field_invalid_integer" z="vmIy7k4YvIY9SpM2udUAhcLpb0E="/>
+        <field:select field="Merchant" id="c_com_azotov_roo_model_Terminal_Merchant" itemValue="id" items="${merchants}" path="/merchants" z="C8dY+ZcQN9xPULIq1LblolSv9gY="/>
+    </form:create>
+    <form:dependency dependencies="${dependencies}" id="d_com_azotov_roo_model_Terminal" render="${not empty dependencies}" z="x6AG1aDOB3NlgiPF8J990lYD2p4="/>
+</div>
